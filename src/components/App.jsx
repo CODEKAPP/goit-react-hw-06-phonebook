@@ -10,6 +10,7 @@ const App = () => {
   const dispatch = useDispatch();
 
   // Cargar contactos desde el almacenamiento local al iniciar la aplicación
+  
   useEffect(() => {
     const storedContacts = localStorage.getItem('contacts');
     if (storedContacts) {
